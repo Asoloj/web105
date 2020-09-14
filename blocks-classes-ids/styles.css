@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    font-size: 1.5em;
+}
+
+.container{
+    background: grey;
+    color: purple;
+    border: 10px solid white;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#outside{
+    background: darkcyan;
+}
+
+#inline{
+    background:lightskyblue
+}
+
+#semantic{
+    background:sandybrown;
+}
+
+.purple{
+    color: rebeccapurple;
+    font-weight: bolder;
+    background: ivory;
+    padding: 5px;
+}
+
+.green{
+    color:green;
+    background: lightcoral;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.blue{
+    color: blue;
+    background: pink;
+    font-weight: 600;
+    padding: 5px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
