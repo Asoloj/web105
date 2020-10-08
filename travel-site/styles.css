@@ -1,0 +1,110 @@
+*{
+    overflow: auto;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    background:rgba(155, 218, 242, 1);
+    color: rgba(64, 27, 30, 1);
+    box-sizing: border-box;
+}
+
+.container{
+    background:rgba(191, 113, 96, 1);
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+h1{
+    font-family:'Noto Serif', serif;
+    color: rgba(64, 27, 30, 1);
+    font-size: 5000;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(64, 27, 30, 1);
+    font-size: 5000;
+    
+}
+
+p {
+    color: white;
+}
+
+figcaption{
+    text-align: left;
+}
+
+nav{
+    text-align: center;
+    line-height: 5;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: white;
+    background: rgba(64, 27, 30, 1);
+    border: 2px solid rgba(64, 27, 30, 1);
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+nav a:hover,.button:hover{
+    color: rgba(64, 27, 30, 1);
+    background: white;
+}
+
+nav a:visited,.button:visited{
+    background: rgba(64, 27, 30, 1);
+    border: rgba(64, 27, 30, 1);
+}
+
+img{
+    padding: 10px;
+    background: rgba(242, 197, 114, 1);
+}
+
+#travel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    float: left;
+}
+aside{
+    clear: both;
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    overflow: auto;
+    border: 4px solid rgba(242, 197, 114, 1);
+    margin-right: 10px;
+}
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+main{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+
+/* Color Theme Swatches in RGBA */
+.color-theme_travel-1-rgba { color: rgba(64, 27, 30, 1); }
+.color-theme_travel-2-rgba { color: rgba(155, 218, 242, 1); }
+.color-theme_travel-3-rgba { color: rgba(242, 197, 114, 1); }
+.color-theme_travel-4-rgba { color: rgba(217, 121, 37, 1); }
+.color-theme_travel-5-rgba { color: rgba(191, 113, 96, 1); }
