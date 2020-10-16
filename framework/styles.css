@@ -1,0 +1,169 @@
+/*------------------CSS reset-------------------*\
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------------Variables--------------------*\
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------layout-----------------------*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 1em;
+}
+
+.container{
+    width:85%;
+    max-width:1000px;
+    min-width:500px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+footer, main, aside, article, div{
+    clear:both;
+}
+
+footer{
+    text-align:center;
+    padding: 20px;
+    color:darkslategray;
+}
+
+.left{
+    clear: both;
+    float:left;
+    padding: 20px;
+}
+
+.right{
+    clear: both;
+    float: right;
+    padding: 20px;
+}
+
+.top{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    text-align: center;
+    margin:10px 0;
+    background:white;
+}
+
+.center{
+    clear: both;
+    display: block;
+    margin:12px auto;
+}
+
+img{
+    box-sizing: border-box;
+    margin:10px;
+    display: block;
+}
+
+.horizontal-menu{
+    display: inline;
+    margin-left: 20px;
+}
+
+.horizontal-menu a{
+    text-decoration:none;
+}
+
+nav{
+    text-align:center;
+}
+
+h1, h2{
+    color: darkslategray;
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.button{
+    color:white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    background: lightslategray;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover{
+    color: lightslategray;
+    background: black;
+}
+
+p{
+    padding: 25px;
+}
+
+
