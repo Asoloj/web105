@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Covid-19 Infectious Disease questions</h1>
+        <form>
+            <h3>Fill out the follwing:</h3>
+            <label for="fullname">Enter your name here:</label>
+            <input type="text" id="fullname" name="fullname" required autofocus>
+            <br>
+            <label for="dob">Enter your date of birth:</label>
+            <input type="text" id="dob" name="dob" required>
+            <br>
+            <h3>Symptoms (mark all that apply)</h3>
+            
+                <input type="checkbox" id="option1" name="option1" value="Fever">
+                <label for="option1">Fever or Chills</label><br>
+                <input type="checkbox" id="option2" name="option2" value="Cough">
+                <label for="option2">Cough</label><br>
+                <input type="checkbox" id="option3" name="option3" value="Fatigue">
+                <label for="option3">Fatigue</label><br>
+                <input type="checkbox" id="option4" name="option4" value="Aches">
+                <label for="option4">Muscle or Body Aches</label><br>
+                <input type="checkbox" id="option5" name="option5" value="Headache">
+                <label for="option5">Headache</label><br>
+                <input type="checkbox" id="option6" name="option6" value="Sore Throat">
+                <label for="option6">Sore Throat</label><br>
+                <input type="checkbox" id="option7" name="option7" value="Congestion">
+                <label for="option7">Congestion or runny nose</label><br>
+                <input type="checkbox" id="option8" name="option8" value="Nausea">
+                <label for="option8">Neausea or Vomiting</label><br>
+                <input type="checkbox" id="option9" name="option9" value="Diarrhea">
+                <label for="option9">Diarrhea</label><br>
+                <br>
+                <br>
+                <label for="date">Today's date:</label>
+                <input type="date" id="date" name="date">
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+        </form>
+    </div>
+    
+</body>
+</html>
