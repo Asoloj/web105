@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    line-height: 2;
+    background: linear-gradient(90deg, rgba(27,36,182,1) 0%, rgba(255,0,78,0.7567401960784313) 90%);
+}
+
+.container{
+   width:90%;
+    max-width: 900px;
+    min-width: 500px;
+    margin:auto;
+    padding:20px;
+    overflow:auto;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 20px;
+    text-align:center;
+}
+
+#p1{
+    background-color: red;
+}
+
+p.p2{
+    white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+img{
+    border-radius:50%;
+}
+
+.columns{
+    column-count:3;
+}
+
+h1{
+    text-align: center;
+}
+
+.outline{
+    outline: 20px dashed #870FFF;
+}
+
+
+  
+  
