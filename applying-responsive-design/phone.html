@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+        
+        .row {
+            border: 3px solid lightslategray;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 2px solid lightslategray;
+        }
+        
+        @media only screen {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>Phone Layout</h1>
+            <nav>
+                <div class="col-"><a href="index.html">Home</a> </div>
+                <div class="col-"><a href="phone.html">Phone</a> </div>
+                <div class="col-"><a href="tablet.html">Tablet</a></div>
+                <div class="col-"><a href="computer.html">Computer</a></div>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="col-"> <img src="sunflowers.jpg" alt="sunflowers"></div>
+            <div class="col-">
+                <p>For this project all my placeholder images are going to be sunflowers!  Because why not?</p>
+                <p>The real name for a Sunflower is actually Helianthus annuus.</p>
+                <p>The color of sunflowers can range anywhere from yellow, orange, red and anywhere in between.</p>
+            </div>
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="col-"><img src="sunflower2.jpg" alt="sunflower 2"></div>
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="col-">
+                <p>As the name suggests, sunflowers grow the best under the full sun.</p>
+                <p>Some say sunflowers get their name because they follow the sun, however this isn't really true.</p>
+                <p>For the most part, sunflowers stay fixed in an east-facing direction.</p>
+            </div>
+        <!-- end row-->
+            <div class="col-"><img src="sunflower3.jpg" alt="sunflower3"> </div>
+            <div class="col-">
+    </main>
+    <footer class="row">
+        <div>
+            <h3>&copy; Andrew Soloj 2020</h3></div>
+    </footer>
+    </div>
+    
+</body>
+</html>
