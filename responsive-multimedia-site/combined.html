@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Combined Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* custom styles here! */
+        
+        
+        body {
+            background:floralwhite;
+        }
+        
+        .row {
+            border: 3px solid floralwhite;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        /* For mobile phones: */
+        
+        [class*="col-"] {
+            width: 100%;
+        }
+        
+        @media only screen and (min-width: 630px) {
+            /* For tablets: */
+            body {
+                background: floralwhite;
+            }
+            .col-m-1 {
+                width: 8.33%;
+            }
+            .col-m-2 {
+                width: 16.66%;
+            }
+            .col-m-3 {
+                width: 25%;
+            }
+            .col-m-4 {
+                width: 33.33%;
+            }
+            .col-m-5 {
+                width: 41.66%;
+            }
+            .col-m-6 {
+                width: 50%;
+            }
+            .col-m-7 {
+                width: 58.33%;
+            }
+            .col-m-8 {
+                width: 66.66%;
+            }
+            .col-m-9 {
+                width: 75%;
+            }
+            .col-m-10 {
+                width: 83.33%;
+            }
+            .col-m-11 {
+                width: 91.66%;
+            }
+            .col-m-12 {
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (min-width: 900px) {
+            /* For desktop: */
+            body {
+                background: floralwhite;
+            }
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+            #left-nav {
+                padding-left: 4%;
+            }
+            #right-nav {
+                padding-right: 4%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>Combined Layout</h1>
+            <nav>
+                <div class="col-3 col-m-4" id="left-nav"><a href="index.html">Home</a> </div>
+                <div class="col-2 col-m-4"><a href="about.html">About</a> </div>
+                <div class="col-2 col-m-4"><a href="facts.html">Facts</a></div>
+                <div class="col-3 col-m-6" id="right-nav"><a href="combined.html">Combined </a></div>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-6 col-m-4"> <img src="flamingo-7.jpg" alt="flamingo7" style="width:500px; height:300px;"></div>
+                <div class="col-8 col-m-6">
+            </div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-7 col-m-6">
+                </div>
+                <div class="col-2 col-m-8"><img src="flamingo-8.jpg" alt="flamingo8" style="width:450px; height:300px;"></div>
+            </div>
+            <!-- end row -->
+            </div>
+
+        </main>
+        <footer class="row">
+            <div class="col-12">
+                <h3>  &copy; Andrew Soloj 2020  </h3> </div>
+        </footer>
+    </div>
+</body>
+
+</html>

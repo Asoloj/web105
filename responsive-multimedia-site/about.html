@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Flamingos</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+        
+        .row {
+            border: 3px solid floralwhite;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 2px solid floralwhite;
+        }
+        
+        @media only screen {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>About Flamingos</h1>
+            <nav>
+                <div class="col-"><a href="index.html">Home</a> </div>
+                <div class="col-"><a href="about.html">About Flamingos</a> </div>
+                <div class="col-"><a href="facts.html">Fun Facts</a></div>
+                <div class="col-"><a href="combined.html">Combined</a></div>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="col-"> <img src="flamingo-3.jpg" alt="flamingo3"></div>
+            <div class="col-">
+                <p>Flamingos or flamingoes are a type of wading bird in the family of Phoenicopteridae, which is the only bird family in the order Phoenicopteriformes. </p>
+                <p>There are four flamingo species are distributed throughout the Americas, including the Caribbean, and also two species that are native to Africa, Asia, and Europe.</p>
+                <p>The colors for Flamingos range from various shades of pink all the way to a crimson red. Some of them are shades of orange too. They also have some colors of cream and white mixed in.</p>
+            </div>
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="col-"><img src="flamingo-4.jpg" alt="flamingo4"></div>
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="col-">
+                <p>Flamingos prefer to be together in groups, that's why they are often seen in large numbers</p>
+                <p>Flamingos do more flying than most people probably think.  They can take off quickly and reach speeds of up to 35 miles per hour.</p>
+                <p>The life span of a Flamingo is usually around 25 to 30 years.</p>
+            </div>
+        <!-- end row-->
+    </main>
+    <footer class="row">
+        <div>
+            <h3>&copy; Andrew Soloj 2020</h3></div>
+    </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablet Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+        
+        .row {
+            border: 3px solid floralwhite;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 3px solid floralwhite;
+        }
+        
+        @media only screen {
+            /* For tablets: */
+            .col-m-1 {
+                width: 8.33%;
+            }
+            .col-m-2 {
+                width: 16.66%;
+            }
+            .col-m-3 {
+                width: 25%;
+            }
+            .col-m-4 {
+                width: 33.33%;
+            }
+            .col-m-5 {
+                width: 41.66%;
+            }
+            .col-m-6 {
+                width: 50%;
+            }
+            .col-m-7 {
+                width: 58.33%;
+            }
+            .col-m-8 {
+                width: 66.66%;
+            }
+            .col-m-9 {
+                width: 75%;
+            }
+            .col-m-10 {
+                width: 83.33%;
+            }
+            .col-m-11 {
+                width: 91.66%;
+            }
+            .col-m-12 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>Tablet Layout</h1>
+            <nav>
+                <div class="col-m-4"><a href="index.html">Home</a> </div>
+                <div class="col-m-4"><a href="about.html">Phone</a> </div>
+                <div class="col-m-4"><a href="facts.html">Tablet</a></div>
+                <div class="col-m-6"><a href="combined.html">Combined</a></div>
+            </nav>
+        </header>
+        
+        <div class="row">
+            <div class="col-m-8"><img src="flamingo-5.jpg" alt="flamingo-5" style="width:400px; height:200px;"> </div>
+            <div class="col-m-4">
+                <p>Fun fact, a flock of flamingos is called a Flamboyance!</p>
+                <p></p>
+            </div>
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="col-m-6">
+                <p>Did you know the word "flamingo" comes from the Spanish and Latin word "flamenco" which means fire, and it refers to the bright color of the birds' feathers.</p>
+                &nbsp;
+                <p>Flamingos hold their bent bills upside down while they are feeding, often for several hours a day, so that they can filter out their food while skimming the water.</p>
+                &nbsp;
+                <p>Fun fact, flamingo chicks are born gray or white and can take up to three years to reach their mature pink, orange, or red .</p>
+            </div>
+            <div class="col-m-6"><img src="flamingo-6.jpg" alt="flamingo6" style="width:500px; height:300px"></div>
+        </div>
+        <!-- end row -->
+    </main>
+    <footer class="row">
+        <div>
+            <h3>  &copy; Andrew Soloj 2020  </h3> </div>
+    </footer>
+    </div>
+        
+    
+</body>
+</html>
